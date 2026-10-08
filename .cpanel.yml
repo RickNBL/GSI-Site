@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=$HOME/public_html/
+    - /bin/mkdir -p "$DEPLOYPATH"
+    - /bin/cp -R a-gsi a-sitcon area-do-cliente assets cases contato conteudos segmentos solucoes phpmailer "$DEPLOYPATH"
+    - /bin/cp index.html enviar-contato.php "$DEPLOYPATH"

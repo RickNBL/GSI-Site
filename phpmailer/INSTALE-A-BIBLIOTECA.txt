@@ -1,0 +1,1 @@
+Adicione nesta pasta a subpasta src contendo PHPMailer.php, SMTP.php e Exception.php da versao estavel oficial em https://github.com/PHPMailer/PHPMailer/releases . Envie os arquivos ao Git antes do primeiro teste do formulario.
